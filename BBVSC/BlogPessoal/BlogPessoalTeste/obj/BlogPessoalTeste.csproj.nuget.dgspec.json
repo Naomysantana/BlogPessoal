@@ -1,17 +1,99 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Samsung\\Desktop\\BBVSC\\BlogPessoal\\BlogPessoalTeste\\BlogPessoalTeste.csproj": {}
+    "C:\\Users\\Samsung\\Documents\\git hub\\BlogPessoal\\BBVSC\\BlogPessoal\\BlogPessoalTeste\\BlogPessoalTeste.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Samsung\\Desktop\\BBVSC\\BlogPessoal\\BlogPessoalTeste\\BlogPessoalTeste.csproj": {
+    "C:\\Users\\Samsung\\Documents\\git hub\\BlogPessoal\\BBVSC\\BlogPessoal\\BlogPessoalTeste\\BlogPessoalTeste.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Samsung\\Desktop\\BBVSC\\BlogPessoal\\BlogPessoalTeste\\BlogPessoalTeste.csproj",
+        "projectUniqueName": "C:\\Users\\Samsung\\Documents\\git hub\\BlogPessoal\\BBVSC\\BlogPessoal\\BlogPessoalTeste\\BlogPessoalTeste.csproj",
         "projectName": "BlogPessoalTeste",
-        "projectPath": "C:\\Users\\Samsung\\Desktop\\BBVSC\\BlogPessoal\\BlogPessoalTeste\\BlogPessoalTeste.csproj",
+        "projectPath": "C:\\Users\\Samsung\\Documents\\git hub\\BlogPessoal\\BBVSC\\BlogPessoal\\BlogPessoalTeste\\BlogPessoalTeste.csproj",
         "packagesPath": "C:\\Users\\Samsung\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Samsung\\Desktop\\BBVSC\\BlogPessoal\\BlogPessoalTeste\\obj\\",
+        "outputPath": "C:\\Users\\Samsung\\Documents\\git hub\\BlogPessoal\\BBVSC\\BlogPessoal\\BlogPessoalTeste\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Samsung\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Samsung\\Documents\\git hub\\BlogPessoal\\BBVSC\\BlogPessoal\\BlogPessoal\\BlogPessoal.csproj": {
+                "projectPath": "C:\\Users\\Samsung\\Documents\\git hub\\BlogPessoal\\BBVSC\\BlogPessoal\\BlogPessoal\\BlogPessoal.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Samsung\\Documents\\git hub\\BlogPessoal\\BBVSC\\BlogPessoal\\BlogPessoal\\BlogPessoal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Samsung\\Documents\\git hub\\BlogPessoal\\BBVSC\\BlogPessoal\\BlogPessoal\\BlogPessoal.csproj",
+        "projectName": "BlogPessoal",
+        "projectPath": "C:\\Users\\Samsung\\Documents\\git hub\\BlogPessoal\\BBVSC\\BlogPessoal\\BlogPessoal\\BlogPessoal.csproj",
+        "packagesPath": "C:\\Users\\Samsung\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Samsung\\Documents\\git hub\\BlogPessoal\\BBVSC\\BlogPessoal\\BlogPessoal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Samsung\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +119,22 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
