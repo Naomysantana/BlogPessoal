@@ -26,10 +26,8 @@ namespace BlogPessoal
                 .Build();
             services.AddDbContext<BlogPessoalContexto>(opt => opt.UseSqlServer(config.GetConnectionString("DefaultConnection")));
 
-             //Configuração Controladores
+            //Configuração Controladores
             services.AddControllers();
-
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
