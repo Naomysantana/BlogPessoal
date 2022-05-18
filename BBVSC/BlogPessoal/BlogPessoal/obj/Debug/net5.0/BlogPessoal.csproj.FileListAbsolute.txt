@@ -21,7 +21,6 @@ C:\Users\Samsung\Documents\git hub\BlogPessoal\BBVSC\BlogPessoal\BlogPessoal\bin
 C:\Users\Samsung\Documents\git hub\BlogPessoal\BBVSC\BlogPessoal\BlogPessoal\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\Samsung\Documents\git hub\BlogPessoal\BBVSC\BlogPessoal\BlogPessoal\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Samsung\Documents\git hub\BlogPessoal\BBVSC\BlogPessoal\BlogPessoal\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Samsung\Documents\git hub\BlogPessoal\BBVSC\BlogPessoal\BlogPessoal\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\Samsung\Documents\git hub\BlogPessoal\BBVSC\BlogPessoal\BlogPessoal\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
 C:\Users\Samsung\Documents\git hub\BlogPessoal\BBVSC\BlogPessoal\BlogPessoal\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Samsung\Documents\git hub\BlogPessoal\BBVSC\BlogPessoal\BlogPessoal\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
@@ -54,3 +53,4 @@ C:\Users\Samsung\Documents\git hub\BlogPessoal\BBVSC\BlogPessoal\BlogPessoal\obj
 C:\Users\Samsung\Documents\git hub\BlogPessoal\BBVSC\BlogPessoal\BlogPessoal\obj\Debug\net5.0\ref\BlogPessoal.dll
 C:\Users\Samsung\Documents\git hub\BlogPessoal\BBVSC\BlogPessoal\BlogPessoal\obj\Debug\net5.0\BlogPessoal.pdb
 C:\Users\Samsung\Documents\git hub\BlogPessoal\BBVSC\BlogPessoal\BlogPessoal\obj\Debug\net5.0\BlogPessoal.genruntimeconfig.cache
+C:\Users\Samsung\Documents\git hub\BlogPessoal\BBVSC\BlogPessoal\BlogPessoal\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

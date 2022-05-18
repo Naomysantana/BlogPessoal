@@ -11,11 +11,11 @@ namespace BlogPessoal.src.modelos
         public int Id { get; set; }
         
         [Required]
-        [StringLength(50)]
+        [StringLength(30)]
         public string Titulo { get; set; }
         
         [Required]
-        [StringLength(30)]
+        [StringLength(100)]
         public string Descricao { get; set; }
         
         public string Foto { get; set; }

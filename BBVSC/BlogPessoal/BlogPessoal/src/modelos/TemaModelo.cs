@@ -17,6 +17,6 @@ namespace BlogPessoal.src.modelos
         public string Descricao { get; set; }
 
         [JsonIgnore]
-        public List<PostagemModelo> MinhasPostagens { get; set; }
+        public List<PostagemModelo> PostagensRelacionadas { get; set; }
     }
 }
